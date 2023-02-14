@@ -201,6 +201,14 @@ footer{
     height: 40px;
 }
 
+#carrosel img{
+    display: none;
+}
+
+.banner-ativo{
+    display: flex;
+}
+
 /* desktop */
 @media screen and (max-width:1200px) {
     .container-grid{
@@ -236,6 +244,10 @@ footer{
     .menu a {
         text-align: right;
         padding: 5px;
+    }
+
+    .menu-ativo{
+        display: flex;  
     }
 
 }
