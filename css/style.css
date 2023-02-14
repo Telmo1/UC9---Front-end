@@ -231,23 +231,25 @@ footer{
         display: none;
         flex-direction: column;
         width: 200px;
-        height: 200px;
+        height: 300px;
         position: absolute;
         top: 0;
-        right: 60;
-        background-color: #1E1C21;
+        right: 65px;
+        background-color: black;
+        
     }
     .barras{
         display: inline-block;
     }
 
     .menu a {
-        text-align: right;
-        padding: 5px;
+        text-align: center;
+        padding: 15px;
     }
 
     .menu-ativo{
         display: flex;  
+        
     }
 
 }

@@ -1,6 +1,6 @@
-function alerta(){
-   window.alert("Vamos ganhar na mega em 2023!");
-}
+// function alerta(){
+//    window.alert("Vamos ganhar na mega em 2023!");
+// }
 
 //DOM -> Modelo de documento de objeto.
 
@@ -32,13 +32,14 @@ function enviarEmail(){
 $(document).ready(function(){
 
     $("#barras").click(function(){
+        $("#menu").toggleClass("menu-ativo");
         // if($("#menu").hasClass("menu-ativo")){
         //     $("menu").removeClass("menu-ativo");
         // }else{
         //     $("menu").addClass("menu-ativo");
         // }
-        $("menu").toggleClass("menu-ativo");
-    });
+        
+    
 
     $("#carrosel img:eq(0)").addClass("banner-ativo").show();
         //Se existir uma proxima imagem
@@ -53,4 +54,5 @@ $(document).ready(function(){
         }
     }
 
+  });
 });
